@@ -202,7 +202,8 @@ int main (){
 Pertama  Menginisialisasi binary search tree dengan ``` BST set; ``` dilanjutkan dengan ``` set.init();```. Dilanjutkan dengan ```cin >> testcase;``` untuk menginputkan testcase, jika pada soal yaitu 7. Lalu ```cin >> N;``` menginputan angka yang diminta, ``` set.insert(N);``` memasukkan angka pada tree. Lalu angka dicetak menggunakan ``` set.traverseInorder ();``` dan mengunjungi setiap node lalu mencari mencari nilai minimal dan minimumnya.
 
 ## Visualisasi Solusi
-
+![Visualisasi Penomoran Garasi Saha](https://user-images.githubusercontent.com/81666422/115314836-33c01e00-a1a0-11eb-8ba9-62f4a7c9d23e.jpg)
+Mengunjungi nilai pada setiap level, dan mencari pada level terbawah yaitu nilai  minimum lalu level selanjutnya nilai maksimum, dan dilanjutkan hingga level teratas.
 
  
 
