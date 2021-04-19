@@ -181,7 +181,7 @@ Berfungsi untuk mencari nilai minimal dan maksimalnya pada setiap level. Lalu di
     }
 };
 ```
-Berfungsi untuk mecari pada level berapakah angka yang dminta pada inputan.
+Berfungsi untuk mecari pada level berapakah angka yang diminta pada inputan.
 
 ```
 int main (){
