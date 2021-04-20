@@ -205,6 +205,13 @@ Pertama  Menginisialisasi binary search tree dengan ``` BST set; ``` dilanjutkan
 ![Visualisasi Penomoran Garasi Saha](https://user-images.githubusercontent.com/81666422/115314836-33c01e00-a1a0-11eb-8ba9-62f4a7c9d23e.jpg)
 Mengunjungi nilai pada setiap level, dan mencari pada level terbawah yaitu nilai  minimum lalu level selanjutnya nilai maksimum, dan dilanjutkan hingga level teratas.
 
- 
+# Nadut Gabut
+## Verdict 
+ ![Verdict Nadut Gabut](https://user-images.githubusercontent.com/81666422/115340445-e019f880-a1d0-11eb-9c0b-fd217b0f0087.jpg)
 
+## Penjelasan Soal
+Di soal Nadut Gabut diminta untuk menghitung total bilangan pada tree. Dengan syarat hanya 3 (tiga) bilangan saja yang dijumlahkan dan ketiga bilangan tersebut bertetangga.
+
+## Penjelasan Solusi
+Pertama mencari 5 (lima) kemungkinan, lalu menjelajahi setiap node. Lalu setiap node di cek dan dijumlahkan, cek kembali apakah hasil penjumlahnya sama dengan output yang diminta. Memisalkan kemungkinan pertama ``` If (left!=NULL && right ≠ NULL) ``` ``` If jumlah node sama dengan yang diminta soal ``` maka permintaan akan terpenuhi. Dan apabila jumlah yang diminta tidak sesuai dengan yang diminta soal maka akan dikeluarkan tidak ditemukan penjumlahan angka di tree.
 
