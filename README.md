@@ -231,6 +231,6 @@ Pada soal Malur Terhubung mencari dengan menggunakan Lowest Common Ancestor
         if (left_lca && right_lca)  return root;
         return (left_lca != NULL)? left_lca: right_lca;
 ```
-Kemudian ```preorder``` dari Lowest Common Ancestor untuk menjumlahkan.
+Setelah mendapatkan ancestor, dilanjutkan dengan ``` In Order ``` menuju bawah untuk menghitung semua penjumlahannya.
 
 
