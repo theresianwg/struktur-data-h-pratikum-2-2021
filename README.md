@@ -215,3 +215,12 @@ Di soal Nadut Gabut diminta untuk menghitung total bilangan pada tree. Dengan sy
 ## Penjelasan Solusi
 Pertama mencari 5 (lima) kemungkinan, lalu menjelajahi setiap node. Lalu setiap node di cek dan dijumlahkan, cek kembali apakah hasil penjumlahnya sama dengan output yang diminta. Memisalkan kemungkinan pertama ``` If (left!=NULL && right ≠ NULL) ``` ``` If jumlah node sama dengan yang diminta soal ``` maka permintaan akan terpenuhi. Dan apabila jumlah yang diminta tidak sesuai dengan yang diminta soal maka akan dikeluarkan tidak ditemukan penjumlahan angka di tree.
 
+# Malur Terhubung
+## Verdict
+![Verdict Malur Terhubung](https://user-images.githubusercontent.com/81666422/115496365-ab22aa00-a293-11eb-96d0-4c8b6517b5a1.jpg)
+
+## Penjelasan Soal
+Di soal Malur Terhubung diminta untuk menemukan sebuah permasalahan, yaitu menghubungkan bilangan L dan R yang terdapat di dalam sebuah binary tree.
+
+## Penjelasan Solusi
+Pertama membuat tiap kondisi, dimana memenuhi 4 (empat) kondisi tersebut. misal ``` if(root-> data + root-> left-> data + root -> right-> data == value) ```  maka akan terpenuhi. Kemungkinan ada input ke kanan semua atau ke kiri semua.
