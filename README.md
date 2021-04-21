@@ -223,4 +223,14 @@ Pertama mencari 5 (lima) kemungkinan, lalu menjelajahi setiap node. Lalu setiap 
 Di soal Malur Terhubung diminta untuk menemukan sebuah permasalahan, yaitu menghubungkan bilangan L dan R yang terdapat di dalam sebuah binary tree.
 
 ## Penjelasan Solusi
-Pertama membuat tiap kondisi, dimana memenuhi 4 (empat) kondisi tersebut. misal ``` if(root-> data + root-> left-> data + root -> right-> data == value) ```  maka akan terpenuhi. Kemungkinan ada input ke kanan semua atau ke kiri semua.
+Pada soal Malur Terhubung mencari dengan menggunakan Lowest Common Ancestor 
+```if(root == NULL) return NULL;
+        if(root->key == n1 || root->key == n2) return root;
+        BSTNode *left_lca = __LCA(root->left,n1,n2);
+        BSTNode *right_lca = __LCA(root->right,n1,n2);
+        if (left_lca && right_lca)  return root;
+        return (left_lca != NULL)? left_lca: right_lca;
+```
+Kemudian ```preorder``` dari Lowest Common Ancestor untuk menjumlahkan.
+
+
