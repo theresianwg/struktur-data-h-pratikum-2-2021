@@ -233,4 +233,13 @@ Pada soal Malur Terhubung mencari dengan menggunakan Lowest Common Ancestor
 ```
 Setelah mendapatkan ancestor, dilanjutkan dengan ``` In Order ``` menuju bawah untuk menghitung semua penjumlahannya.
 
+# Banyu
+## Verdict
+![Verdict Banyu](https://user-images.githubusercontent.com/81666422/115531340-da9adc00-a2be-11eb-9c49-b9bfc4877bab.jpg)
+
+## Penjelasan Soal
+Di soal Banyu diminta untuk mencari titik terdekat daun dengan seumber air.
+
+## Penjelasan Solusi
+Pertama di soal ini menggunakan Depth First Search, untuk mencari minimum path dari node yang dipilih dari ujung tree. Untuk mencari path membuat tree terlebih dahulu. Karena di soal Banyu anak percabangannya lebih dari 2 (dua). Maka, memakai array untuk menyimpan node percabangannya. Kemudian membuat rekursi untuk mengunjungi setiap node, tetapi juga menghitung jarak untuk sampai mencapai node yang paling ujung. Kemudian mendapatkan path terdekat, sehingga mengetahui node yang paling dekat dengan node yang diminta.
 
